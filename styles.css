@@ -1,3 +1,31 @@
 .ui.borderless.secondary.menu{
   height: 140px;
 }
+
+#center-container{
+  background-image: url("http://kawaiikon.com/wp-content/uploads/2015/01/oldpaper.jpg");
+}
+
+.footer-background {
+  background-color: #252525;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+}
+
+.footer-headers{
+  color: dimgrey;
+}
+
+.dates{
+  font-size: 12px;
+  color: dimgray;
+}
+
+h1{
+  color: black;
+}
+
+.content-text{
+  color: darkslategrey;
+}

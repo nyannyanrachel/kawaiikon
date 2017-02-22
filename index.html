@@ -1,44 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Title</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css">
-  <link rel="stylesheet" href="style.css">
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-  <script type="text/javascript"
-          src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.js"></script>
+  <head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.js"></script>
 
 
-</head>
-<body>
-<div
-    style="background-image: url('http://kawaiikon.com/wp-content/uploads/2016/04/KK2017-Home-Dates.png'); height: 100%;">
-  <div id="navBar" class="ui borderless secondary massive menu">
+  </head>
+  <body>
+  <div id="landing-bg"
+       style="background-image: url('http://kawaiikon.com/wp-content/uploads/2016/04/KK2017-Home-Dates.png'); height: 100%; width: 100%;  background-size: cover; ">
+    <div id="navBar" class="ui borderless secondary massive menu">
 
-    <div class="item">
-      <img src="http://kawaiikon.com/wp-content/uploads/2015/04/Word-Logo.png" style="height: 140px; width: 100%"/>
+      <div class="item">
+        <img src="http://kawaiikon.com/wp-content/uploads/2015/04/Word-Logo.png" style="height: 140px; width: 100%"/>
+      </div>
+      <div class="ui right dropdown item">
+        Registration
+        <div class=" inverted menu">
+          <div class="item">Attendees</div>
+          <div class="item">Artists</div>
+          <div class="item">Vendors</div>
+          <div class="item">Press & Media</div>
+        </div>
+      </div>
+
+      <a class="item"><i class="search icon"></i></a>
     </div>
-    <a class="right item"><i class="facebook f icon"></i></a>
-    <a class="item"><i class="twitter icon"></i></a>
-    <a class="item"><i class="pinterest icon"></i></a>
-    <a class="item"><i class="instagram icon"></i></a>
-    <a class="item"><i class="home icon"></i></a>
-    <a class="item"><i class="user icon"></i></a>
-    <a class="item"><i class="search icon"></i></a>
-    <div class="ui dropdown item">
-      My Cart
-      <i class="shop icon"></i>
-      0
-      <i class="dropdown icon"></i>
-      <div class="menu">
-        <div class="item">Your cart is currently empty.</div>
+  </div>
+
+  <div style="background-color: #f26d78; margin-bottom: 10px; height: 30px;"></div>
+  <div id="center-container">
+    <div class="ui four column grid container">
+      <div class="column">
+        <h1>Online Registration</h1>
+        <div>3 Day Memberships Adult Pricing (13+)</div>
+        <div class="ui hidden divider"></div>
+        <div class="ui list">
+          <div class="item content-text"><i class="blue star icon"></i>   $48 until 7/31 at 11:59pm</div>
+          <div class="item content-text"><i class="blue star icon"></i>   $51 until 10/31 at 11:59pm</div>
+          <div class="item content-text"><i class="blue star icon"></i>   $56 until 3/24 at 11:59pm</div>
+        </div>
+        <div class="ui hidden divider"></div>
+        <div>3 Day Memberships Child Pricing (5-12)</div>
+        <div class="ui hidden divider"></div>
+        <div class="ui list">
+          <div class="item content-text"><i class="blue star icon"></i>   $43 until 10/31 at 11:59pm</div>
+          <div class="item content-text"><i class="blue star icon"></i>   $47 until 3/24 at 11:59pm</div>
+        </div>
+        <div class="ui hidden divider"></div>
+      </div>
+      <div class="column">
+        <h1>At the Door Friday Registration</h1>
+        <div>Adult Pricing (13+)</div>
+        <div class="ui hidden divider"></div>
+        <div class="ui list">
+          <div class="item content-text"><i class="blue star icon"></i>   3 Day Membership: $63</div>
+          <div class="item content-text"><i class="blue star icon"></i>   Friday/Saturday Membership: $53</div>
+          <div class="item content-text"><i class="blue star icon"></i>   Friday Only Membership: $38</div>
+        </div>
+        <div class="ui hidden divider"></div>
+        <div>Child Pricing (5-12)</div>
+        <div class="ui hidden divider"></div>
+        <div class="ui list">
+          <div class="item content-text"><i class="blue star icon"></i>   3 Day Membership: $53</div>
+          <div class="item content-text"><i class="blue star icon"></i>   Friday/Saturday Membership: $53</div>
+          <div class="item content-text"><i class="blue star icon"></i>   Friday Only Membership: $38</div>
+        </div>
+        <div class="ui hidden divider"></div>
+      </div>
+      <div class="column">
+        <h1>At the Door Saturday Registration</h1>
+        <div>Adult Pricing (13+)</div>
+        <div class="ui hidden divider"></div>
+        <div class="ui list">
+          <div class="item content-text"><i class="blue star icon"></i>   Saturday/Sunday Membership: $53</div>
+          <div class="item content-text"><i class="blue star icon"></i>   Saturday Only Membership: $43</div>
+        </div>
+        <div class="ui hidden divider"></div>
+        <div>Child Pricing (5-12)</div>
+        <div class="ui hidden divider"></div>
+        <div class="ui list">
+          <div class="item content-text"><i class="blue star icon"></i>   Saturday/Sunday Membership: $53</div>
+          <div class="item content-text"><i class="blue star icon"></i>   Saturday Only Membership: $43</div>
+        </div>
+        <div class="ui hidden divider"></div>
+      </div>
+      <div class="column">
+        <h1>At the Door Sunday Registration</h1>
+        <div>Adult Pricing (13+)</div>
+        <div class="ui hidden divider"></div>
+        <div class="ui list">
+          <div class="item content-text"><i class="blue star icon"></i>   Sunday Only Membership: $38</div>
+        </div>
+        <div class="ui hidden divider"></div>
+        <div>Child Pricing (5-12)</div>
+        <div class="ui hidden divider"></div>
+        <div class="ui list">
+          <div class="item content-text"><i class="blue star icon"></i>   Sunday Only Membership: $38</div>
+        </div>
+        <div class="ui hidden divider"></div>
       </div>
     </div>
   </div>
-</div>
+  <div style="background-color: #f26d78; margin-top: 10px; height: 30px;"></div>
 
-<!--<img class="ui fluid image" src="http://kawaiikon.com/wp-content/uploads/2016/04/KK2017-Home-Dates.png"/>-->
+  <div class="footer-background">
+    <div class="ui three column grid container">
 
-</body>
-</html>
+      <div class="column">
+        <div class="ui list">
+          <h4 class="footer-headers item">CONTACT FORM</h4>
+          <div class="item">Fields marked with an <span style="color: red;">*</span> are required</div>
+          <div class="item">Name <span style="color: deepskyblue;">*</span></div>
+          <div class="ui action input">
+            <input type="text">
+          </div>
+          <div class="ui hidden divider"></div>
+          <div class="item">Email <span style="color: deepskyblue;">*</span></div>
+          <div class="ui action input">
+            <input type="text">
+          </div>
+          <div class="ui hidden divider"></div>
+          <div class="item">Subject <span style="color: deepskyblue;">*</span></div>
+          <div class="ui action input">
+            <input type="text">
+          </div>
+          <div class="ui hidden divider"></div>
+          <div class="item">Question or Comment <span style="color: deepskyblue;">*</span></div>
+          <div class="ui action input">
+            <input type="text">
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="ui list">
+          <h4 class="footer-headers item">GENERAL INFORMATION</h4>
+          <div class="item">Kawaii Kon is an annual 3 day celebration of Japanese culture, anime, and pop-culture held
+            in Honolulu, Hawaii.
+          </div>
+          <h4 class="footer-headers">DATES</h4>
+          <div class="item">April 7 - 9, 2017</div>
+          <h4 class="footer-headers">ADDRESS</h4>
+          <div class="item" style="white-space: pre-wrap;">Hawaii Convention Center,&#10;1801 Kalakaua Avenue,&#10;Honolulu, HI 96815
+          </div>
+          <h4 class="footer-headers item">GENERAL INQUIRIES</h4>
+          <div class="item">info@kawaiikon.com</div>
+          <h4 class="footer-headers item">SUBSCRIBE TO OUR NEWSLETTER!</h4>
+          <div class="ui action input">
+            <input type="text" placeholder="Name">
+            <button class="ui button" style="background-color: #336d96; color: white;">Subscribe</button>
+          </div>
+          <div class="ui hidden divider"></div>
+          <div class="ui action input">
+            <input type="text" placeholder="Email">
+          </div>
+          <div class="ui hidden divider"></div>
+          <div class="ui selection dropdown">
+            <input name="gender" type="hidden">
+            <i class="dropdown icon"></i>
+            <div class="default text">Gender</div>
+            <div class="menu">
+              <div class="item" data-value="1">Male</div>
+              <div class="item" data-value="0">Female</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+
+        <div class="ui list">
+          <h4 class="footer-headers">FOLLOW US</h4>
+            <i class="big fitted facebook square icon"></i>
+            <i class="big fitted twitter icon"></i>
+            <i class="big fitted google plus icon"></i>
+            <i class="big fitted youtube icon"></i>
+            <i class="big fitted tumblr icon"></i>
+            <i class="big fitted instagram icon"></i>
+
+          <div class="ui hidden divider"></div>
+          <h4 class="footer-headers item">LATEST UPDATES</h4>
+          <div class="item">KK2017 Modeling Application</div>
+          <div class="item dates" style="font-size: 12px;">January 21, 2017</div>
+          <div class="ui hidden divider"></div>
+          <div class="item">Anime Swap Meet 2017</div>
+          <div class="item dates" style="font-size: 12px;">January 10, 2017</div>
+          <div class="ui hidden divider"></div>
+          <div class="item">Kawaii Kon 2017 Crew Meeting #1</div>
+          <div class="item dates" style="font-size: 12px;">October 17, 2016</div>
+          <div class="ui hidden divider"></div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  </body>
+  <script>
+    $('.ui.dropdown')
+        .dropdown()
+    ;
+  </script>
+  </html>
